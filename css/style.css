@@ -190,6 +190,10 @@ main:focus {
 }
 
 /* Obfuscated e-mail address: plain text until main.js adds the link */
+a.email {
+  overflow-wrap: anywhere;
+}
+
 a.email:not([href]) {
   color: inherit;
   text-decoration: none;
