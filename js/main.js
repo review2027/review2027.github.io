@@ -67,6 +67,7 @@
       .replace(/\s*\[dot\]\s*/gi, ".")
       .trim();
     link.href = "mailto:" + address;
+    link.textContent = address;
   });
 
   /* Smooth scrolling for in-page links, enabled after loading so that
